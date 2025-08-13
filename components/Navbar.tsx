@@ -2,7 +2,6 @@
 
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
-import ThemeToggle from "@/components/ThemeToggle";
 import { useState } from "react";
 
 export default function Navbar() {
